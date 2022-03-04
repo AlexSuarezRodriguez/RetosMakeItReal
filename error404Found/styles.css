@@ -1,0 +1,31 @@
+
+
+
+
+/*
+body{
+  margin-left:10% ;
+}
+.pagina{
+  display: flex;
+  background-color: rgb(15, 180, 0);
+}
+.header{
+  background-color: aquamarine;
+}
+.pagina__imagen{
+  width: 50%;
+}
+.pagina__texto{
+  width: 50%;
+}
+.pagina__texto--titulo{
+font-family: 'Space Mono', monospace;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 95px;
+letter-spacing: -0.035em;
+text-align: left;
+}
+*/
