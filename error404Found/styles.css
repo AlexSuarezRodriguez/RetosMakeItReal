@@ -77,75 +77,39 @@ footer{
   height: 40px;
 }
 @media(min-width:768px){
-body{
-  width: 70%;
-}
-.header{
-  margin:10px;
-  padding-left: 10px;
-}
-.headerTitulo{
-  padding-left: 10px;
-  font-family: 'Space Mono', monospace;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 25px;
-  letter-spacing: -0.08em;
-  text-transform: uppercase;
-  color: #333333;
-}
-.contendor{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  height: 350px;
+  body{
+    width: 70%;
+  }
+  .contendor{
+    flex-direction: row;
+    height: 350px;
+  }
+  .contendor_image{
+    display: flex;
+    width: 50%;
+    margin:0 0;
+    align-items: center;
+  }
+  .contendorTexto {
+    align-items: flex-end;
+    width: 50%;
+  }
+  .contendorTexto__titulo{
+    font-family: 'Space Mono', monospace;;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    color: #333333;
+  }
+  .contendorTexto__parrafo{
+    font-size: 18px;
+    line-height: 27px;
+  }
+  button{
+    width: 150px;
+    margin-left: 0px; 
+  }
+  }
   
-}
-.contendor_image{
-  display: flex;
-  width: 50%;
-  margin:0 0;
-  align-items: center;
-}
-.contendorTexto {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-end;
-  padding: 5px;
-  height: 350px;
-  width: 50%;
-}
-.contendorTexto__titulo{
-  font-family: 'Space Mono', monospace;;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 38px;
-  line-height: 71px;
-  letter-spacing: -0.035em;
-  color: #333333;
-}
-.contendorTexto__parrafo{
-  font-family: 'Space Mono', monospace;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 27px;
-  letter-spacing: -0.035em;
-}
-button{
-  width: 150px;
-  margin-left: 0px;
-  font-family: 'Space Mono', monospace;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 21px;
-  letter-spacing: -0.035em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  background: #333333;
-}
-}
